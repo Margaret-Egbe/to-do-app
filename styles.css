@@ -125,6 +125,7 @@ main {
   width: 100%;
   display: block;
   transition: 0.4s;
+
 }
 
 #tasks .task .content .text:not(:read-only) {
@@ -278,7 +279,10 @@ main {
   #tasks .task .actions {
     margin: unset;
   }
-
+  #completed-tasks .task .actions button {
+    margin: 0 0rem;
+    font-size: 0.875rem;
+}
   header h1 {
     font-size: 1.75rem;
   }
